@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
     }
     else
     {
-        fprintf(fr," 日期 , 时间 , 纬度方向, 纬度／度 , 经度方向, 经度／度 , 航向／度 ，海拔／米 ,速度/km/h , 卫星颗数／颗\n");
+        fprintf(fr," 日期 , 时间 , 纬度方向 , 纬度／度 , 经度方向, 经度／度 , 航向／度 ，海拔／米 ,速度/km/h , 卫星颗数／颗\n");
     }
     
     while(fscanf(fp,"%s%s",sp1,sp2)!=EOF)
